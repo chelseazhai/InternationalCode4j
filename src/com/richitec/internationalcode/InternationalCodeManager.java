@@ -14,9 +14,6 @@ public class InternationalCodeManager {
 
 	private static final String LOG_TAG = "InternationalCodeManager";
 
-	// international code database path
-	private static final String DATABASE_PATH = "src/internationalcodedb/internationalcode.db";
-
 	// international code database query timeout 30 seconds
 	private static final Integer TIMEOUT = 30;
 
@@ -89,8 +86,9 @@ public class InternationalCodeManager {
 
 	// load and traversal international code database, important do it first
 	private void load7TraversalInternationalCodeDB() {
-		// international code database name of table for saving international
-		// code and its keys
+		// international code database path and its table of saving
+		// international code and its keys
+		final String DATABASE_PATH = "src/internationalcodedb/internationalcode.db";
 		final String TABLE_NAME = "internationalcode";
 		final String KEY_INDEX = "index";
 		final String KEY_CODE = "code";
