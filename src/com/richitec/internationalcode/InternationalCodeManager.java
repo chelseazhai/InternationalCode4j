@@ -1,5 +1,9 @@
 package com.richitec.internationalcode;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -9,6 +13,11 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.json.XML;
 
 public class InternationalCodeManager {
 
@@ -92,8 +101,13 @@ public class InternationalCodeManager {
 		final String TABLE_NAME = "internationalcode";
 		final String KEY_INDEX = "index";
 		final String KEY_CODE = "code";
-		final String KEY_COUNTRY = "country";
+		final String KEY_COUNTRYNAME = "country";
 		final String KEY_ABBREVIATION = "abbreviation";
+
+		// international code xml file path and its json keys
+		final String XMLFILE_PATH = "/internationalcodedb/internationalcode.xml";
+		final String KEY_COUNTRIES = "countries";
+		final String KEY_COUNTRY = "country";
 
 		// define sqlite database connection
 		Connection _connection = null;
@@ -119,7 +133,7 @@ public class InternationalCodeManager {
 				// abbreviation
 				Integer _id = _rs.getInt(KEY_INDEX);
 				Integer _code = _rs.getInt(KEY_CODE);
-				String _countryName = _rs.getString(KEY_COUNTRY);
+				String _countryName = _rs.getString(KEY_COUNTRYNAME);
 				String _abbreviation = _rs.getString(KEY_ABBREVIATION);
 
 				// System.out
@@ -155,6 +169,66 @@ public class InternationalCodeManager {
 					.println(LOG_TAG
 							+ ", access international code database error, exception message = "
 							+ e.getMessage());
+
+			System.out.println(LOG_TAG
+					+ ", loading international code xml file");
+			// load international code xml file
+			try {
+				// get international code json object
+				JSONObject _internationalCodeJsonObject = XML
+						.toJSONObject(inputStream2String(this.getClass()
+								.getResourceAsStream(XMLFILE_PATH)));
+
+				// get all countries json array
+				JSONArray _countriesJsonArray = (JSONArray) ((JSONObject) _internationalCodeJsonObject
+						.get(KEY_COUNTRIES)).get(KEY_COUNTRY);
+
+				// traversal countries json array
+				for (int i = 0; i < _countriesJsonArray.length(); i++) {
+					// get country json object
+					JSONObject _countryJsonObject = _countriesJsonArray
+							.getJSONObject(i);
+
+					// get international code id, code, country name and
+					// abbreviation
+					Integer _id = _countryJsonObject.getInt(KEY_INDEX);
+					Integer _code = _countryJsonObject.getInt(KEY_CODE);
+					String _countryName = _countryJsonObject
+							.getString(KEY_COUNTRYNAME);
+					String _abbreviation = _countryJsonObject
+							.getString(KEY_ABBREVIATION);
+
+					// System.out.println("International code id = " + _id
+					// + ", code = " + _code + ", country name = "
+					// + _countryName + " and abbreviation = "
+					// + _abbreviation);
+
+					// add code to all international code set
+					_mAllInternationalCodeSet.add(_code);
+
+					// generate international code bean and add to all
+					// international
+					// code array
+					InternationalCodeBean _internationalCode = new InternationalCodeBean();
+
+					// set attributes
+					_internationalCode.setId(_id);
+					_internationalCode.setCode(_code);
+					_internationalCode.setCountryName(_countryName);
+					_internationalCode.setAbbreviation(_abbreviation);
+
+					// add to list
+					_mAllInternationalCodeArray.add(_internationalCode);
+				}
+			} catch (JSONException ie) {
+				// xml file to json object error
+				ie.printStackTrace();
+
+				System.out
+						.println(LOG_TAG
+								+ ", access international code xml file error, exception message = "
+								+ ie.getMessage());
+			}
 		} finally {
 			// close sqlite connection
 			try {
@@ -171,6 +245,35 @@ public class InternationalCodeManager {
 								+ e.getMessage());
 			}
 		}
+	}
+
+	// convert inputStream to string
+	private String inputStream2String(InputStream inputStream) {
+		// define return result and buffer reader
+		StringBuilder _ret = new StringBuilder();
+		BufferedReader _bufferReader = new BufferedReader(
+				new InputStreamReader(inputStream));
+
+		try {
+			// check buffer reader is ready
+			while (_bufferReader.ready()) {
+				// read line and append to return result
+				_ret.append(_bufferReader.readLine());
+			}
+
+			// close buffer reader
+			_bufferReader.close();
+		} catch (IOException e) {
+			// check buffer reader ready or read or close error
+			e.printStackTrace();
+
+			System.out
+					.println(LOG_TAG
+							+ ", check buffer reader ready or read or close error, exception = "
+							+ e.getMessage());
+		}
+
+		return _ret.toString();
 	}
 
 }
