@@ -10,9 +10,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.HashSet;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Set;
+import java.util.TreeSet;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -33,7 +34,21 @@ public class InternationalCodeManager {
 	private final List<InternationalCodeBean> _mAllInternationalCodeArray = new ArrayList<InternationalCodeBean>();
 
 	// all international code set
-	private final Set<Integer> _mAllInternationalCodeSet = new HashSet<Integer>();
+	private final Set<Integer> _mAllInternationalCodeSet = new TreeSet<Integer>(
+			new Comparator<Integer>() {
+
+				@Override
+				public int compare(Integer lhs, Integer rhs) {
+					// define result value of comparator with left hand side and
+					// right hand side
+					int _compValue = lhs.compareTo(rhs);
+					int _compABSValue = Math.abs(_compValue);
+
+					return 0 == _compValue ? _compValue
+							: _compValue == _compABSValue ? -_compABSValue
+									: _compABSValue;
+				}
+			});
 
 	// private constructor
 	private InternationalCodeManager() {
@@ -79,7 +94,10 @@ public class InternationalCodeManager {
 	}
 
 	// get all international code
-	public Object[] getAllInternationalCode() {
+	public List<Integer> getAllInternationalCode() {
+		// all international code
+		List<Integer> _allInternationalCode = new ArrayList<Integer>();
+
 		// check all international code object array and all international code
 		// set
 		if ((null == _mAllInternationalCodeArray || 0 == _mAllInternationalCodeArray
@@ -90,7 +108,12 @@ public class InternationalCodeManager {
 			load7TraversalInternationalCodeDB();
 		}
 
-		return _mAllInternationalCodeSet.toArray();
+		// generate all international code
+		for (Object internationalCode : _mAllInternationalCodeSet.toArray()) {
+			_allInternationalCode.add((Integer) internationalCode);
+		}
+
+		return _allInternationalCode;
 	}
 
 	// load and traversal international code database, important do it first
