@@ -8,8 +8,27 @@ import com.richitec.internationalcode.InternationalCodeManager;
 public class InternationalCodeHelper {
 
 	// international prefix strings
-	public static final String[] INTERNATIONAL_PREFIXES = new String[] { "",
-			"+", "00", "+00" };
+	public static final String[] INTERNATIONAL_PREFIXES = new String[] { "+00",
+			"00", "+", "" };
+
+	// get international prefix except for exception string
+	public static List<String> getInternationalPrefix(String exception) {
+		// define return result
+		List<String> _ret = new ArrayList<String>();
+
+		// append all international prefixes
+		for (String internationalPrefix : INTERNATIONAL_PREFIXES) {
+			_ret.add(internationalPrefix);
+		}
+
+		// check exception
+		if (null != exception && _ret.contains(exception)) {
+			// remove exception international prefix
+			_ret.remove(exception);
+		}
+
+		return _ret;
+	}
 
 	// get all international code
 	public static List<Integer> getAllInternationalCodes() {

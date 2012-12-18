@@ -51,6 +51,12 @@ public class InternationalCodeDemo {
 							+ string);
 		}
 
+		String _exceptionInternationalPrefix = "";
+		System.out.println("Get international prefix = "
+				+ InternationalCodeHelper
+						.getInternationalPrefix(_exceptionInternationalPrefix)
+				+ " except for = " + _exceptionInternationalPrefix);
+
 		// convert sqlite database to xml
 		// new international code xml file and file write
 		File _internationalCodeXmlFile = new File(
