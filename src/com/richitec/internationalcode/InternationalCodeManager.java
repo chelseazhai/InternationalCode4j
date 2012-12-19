@@ -134,9 +134,15 @@ public class InternationalCodeManager {
 		// define return result
 		List<Integer> _ret = new ArrayList<Integer>();
 
-		for (AreaAbbreviation areaAbbreviation : abbreviations) {
-			// get international code by abbreviation
-			_ret.add(getInternationalCodeByAbbreviation(areaAbbreviation));
+		// add all international codes
+		if (abbreviations.isEmpty()) {
+			_ret.addAll(getAllInternationalCode());
+		} else {
+			// add each allowed
+			for (AreaAbbreviation areaAbbreviation : abbreviations) {
+				// get international code by abbreviation
+				_ret.add(getInternationalCodeByAbbreviation(areaAbbreviation));
+			}
 		}
 
 		return _ret;
