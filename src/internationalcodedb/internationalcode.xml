@@ -1,1509 +1,1515 @@
 <?xml version="1.0" encoding="utf-8"?>
-<countries>
-	<country>
+<internationalCodes>
+	<internationalCode>
 		<index>1</index>
 		<code>1</code>
-		<country>United States of America</country>
+		<area>United States of America</area>
 		<abbreviation>US</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>2</index>
 		<code>1</code>
-		<country>Canada</country>
+		<area>Canada</area>
 		<abbreviation>CA</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>3</index>
 		<code>1264</code>
-		<country>Anguilla</country>
+		<area>Anguilla</area>
 		<abbreviation>AI</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>4</index>
 		<code>1268</code>
-		<country>Antigua and Barbuda</country>
+		<area>Antigua and Barbuda</area>
 		<abbreviation>AG</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>5</index>
 		<code>1242</code>
-		<country>The Commonwealth of The Bahamas</country>
+		<area>Commonwealth of The Bahamas</area>
 		<abbreviation>BS</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>6</index>
 		<code>1246</code>
-		<country>Barbados</country>
+		<area>Barbados</area>
 		<abbreviation>BB</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>7</index>
 		<code>1441</code>
-		<country>Bermuda</country>
+		<area>Bermuda</area>
 		<abbreviation>BM</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>8</index>
 		<code>1284</code>
-		<country>British Virgin Islands</country>
+		<area>British Virgin Islands</area>
 		<abbreviation>VG</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>9</index>
 		<code>1345</code>
-		<country>Cayman Islands</country>
+		<area>Cayman Islands</area>
 		<abbreviation>KY</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>10</index>
 		<code>1767</code>
-		<country>The Commonwealth of Dominica</country>
+		<area>Commonwealth of Dominica</area>
 		<abbreviation>DM</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>11</index>
 		<code>1809</code>
-		<country>The Dominican Republic</country>
+		<area>Dominican Republic</area>
 		<abbreviation>DO</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>12</index>
 		<code>1473</code>
-		<country>Grenada</country>
+		<area>Grenada</area>
 		<abbreviation>GD</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>13</index>
 		<code>1876</code>
-		<country>Jamaica</country>
+		<area>Jamaica</area>
 		<abbreviation>JM</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>14</index>
 		<code>1664</code>
-		<country>Montserrat</country>
+		<area>Montserrat</area>
 		<abbreviation>MS</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>15</index>
 		<code>1787</code>
-		<country>The Commonwealth of Puerto Rico</country>
+		<area>The Commonwealth of Puerto Rico</area>
 		<abbreviation>PR</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>16</index>
 		<code>1939</code>
-		<country>The Commonwealth of Puerto Rico</country>
+		<area>The Commonwealth of Puerto Rico</area>
 		<abbreviation>PR</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>17</index>
 		<code>1869</code>
-		<country>The Federation of Saint Kitts and Nevis</country>
+		<area>The Federation of Saint Kitts and Nevis</area>
 		<abbreviation>KN</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>18</index>
 		<code>1758</code>
-		<country>Saint Lucia</country>
+		<area>Saint Lucia</area>
 		<abbreviation>LC</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>19</index>
 		<code>1784</code>
-		<country>Saint Vincent and the Grenadines</country>
+		<area>Saint Vincent and the Grenadines</area>
 		<abbreviation>VC</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>20</index>
 		<code>1868</code>
-		<country>Republic of Trinidad and Tobago</country>
+		<area>Republic of Trinidad and Tobago</area>
 		<abbreviation>TT</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>21</index>
 		<code>1649</code>
-		<country>The Turks and Caicos Islands</country>
+		<area>The Turks and Caicos Islands</area>
 		<abbreviation>TC</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>22</index>
 		<code>1340</code>
-		<country>The United States Virgin Islands</country>
+		<area>United States Virgin Islands</area>
 		<abbreviation>VI</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>23</index>
 		<code>1671</code>
-		<country>The Territory of Guahan</country>
+		<area>The Territory of Guahan</area>
 		<abbreviation>GU</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>24</index>
 		<code>1670</code>
-		<country>Commonwealth of the Northern Mariana Islands</country>
+		<area>Commonwealth of the Northern Mariana Islands</area>
 		<abbreviation>MP</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>25</index>
 		<code>20</code>
-		<country>The Arab Republic of Egypt</country>
+		<area>The Arab Republic of Egypt</area>
 		<abbreviation>EG</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>26</index>
 		<code>211</code>
-		<country>Republic of South Sudan</country>
+		<area>Republic of South Sudan</area>
 		<abbreviation>SS</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>27</index>
 		<code>212</code>
-		<country>The Kingdom of Morocco</country>
+		<area>The Kingdom of Morocco</area>
 		<abbreviation>MA</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>28</index>
 		<code>213</code>
-		<country>People's Democratic Republic of Algeria</country>
+		<area>People's Democratic Republic of Algeria</area>
 		<abbreviation>DZ</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>29</index>
 		<code>216</code>
-		<country>The Republic of Tunisia</country>
+		<area>The Republic of Tunisia</area>
 		<abbreviation>TN</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>30</index>
 		<code>218</code>
-		<country>Libya</country>
+		<area>Libya</area>
 		<abbreviation>LY</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>31</index>
 		<code>220</code>
-		<country>The Republic of the Gambia</country>
+		<area>Republic of the Gambia</area>
 		<abbreviation>GM</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>32</index>
 		<code>221</code>
-		<country>The Republic of Senegal</country>
+		<area>Republic of Senegal</area>
 		<abbreviation>SN</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>33</index>
 		<code>222</code>
-		<country>The Islamic Republic of Mauritania</country>
+		<area>The Islamic Republic of Mauritania</area>
 		<abbreviation>MR</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>34</index>
 		<code>223</code>
-		<country>The Republic of Mali</country>
+		<area>Republic of Mali</area>
 		<abbreviation>ML</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>35</index>
 		<code>224</code>
-		<country>The Republic of Guinea</country>
+		<area>Republic of Guinea</area>
 		<abbreviation>GN</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>36</index>
 		<code>225</code>
-		<country>Ivory Coast</country>
+		<area>Ivory Coast</area>
 		<abbreviation>CI</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>37</index>
 		<code>226</code>
-		<country>Burkina Faso</country>
+		<area>Burkina Faso</area>
 		<abbreviation>BF</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>38</index>
 		<code>227</code>
-		<country>The Republic of Niger</country>
+		<area>Republic of Niger</area>
 		<abbreviation>NE</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>39</index>
 		<code>228</code>
-		<country>The Republic of Togo, La Republique Togolaise</country>
+		<area>Republic of Togo, La Republique Togolaise</area>
 		<abbreviation>TG</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>40</index>
 		<code>229</code>
-		<country>The Republic of Benin</country>
+		<area>Republic of Benin</area>
 		<abbreviation>BJ</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>41</index>
 		<code>230</code>
-		<country>The Republic of Mauritius</country>
+		<area>Republic of Mauritius</area>
 		<abbreviation>MU</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>42</index>
 		<code>231</code>
-		<country>The Republic of Liberia</country>
+		<area>Republic of Liberia</area>
 		<abbreviation>LR</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>43</index>
 		<code>232</code>
-		<country>The Republic of Sierra Leone</country>
+		<area>Republic of Sierra Leone</area>
 		<abbreviation>SL</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>44</index>
 		<code>233</code>
-		<country>Republic of Ghana</country>
+		<area>Republic of Ghana</area>
 		<abbreviation>GH</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>45</index>
 		<code>234</code>
-		<country>Federal Republic of Nigeria</country>
+		<area>Federal Republic of Nigeria</area>
 		<abbreviation>NG</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>46</index>
 		<code>235</code>
-		<country>The Republic of Chad</country>
+		<area>Republic of Chad</area>
 		<abbreviation>TD</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>47</index>
 		<code>236</code>
-		<country>The Central African Republic</country>
+		<area>The Central African Republic</area>
 		<abbreviation>CF</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>48</index>
 		<code>237</code>
-		<country>Republic of Cameroon</country>
+		<area>Republic of Cameroon</area>
 		<abbreviation>CM</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>49</index>
 		<code>238</code>
-		<country>The Republic of Cape Verde</country>
+		<area>Republic of Cape Verde</area>
 		<abbreviation>CV</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>50</index>
 		<code>239</code>
-		<country>Sao Tome and Principe</country>
+		<area>Sao Tome and Principe</area>
 		<abbreviation>ST</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>51</index>
 		<code>240</code>
-		<country>The Republic of Equatorial Guinea</country>
+		<area>Republic of Equatorial Guinea</area>
 		<abbreviation>GQ</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>52</index>
 		<code>241</code>
-		<country>The Gabonese Republic</country>
+		<area>The Gabonese Republic</area>
 		<abbreviation>GA</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>53</index>
 		<code>242</code>
-		<country>Republic of the Congo</country>
+		<area>Republic of the Congo</area>
 		<abbreviation>CG</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>54</index>
 		<code>243</code>
-		<country>Democratic Republic of the Congo</country>
+		<area>Democratic Republic of the Congo</area>
 		<abbreviation>CD</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>55</index>
 		<code>244</code>
-		<country>The Republic of Angola</country>
+		<area>Republic of Angola</area>
 		<abbreviation>AO</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>56</index>
 		<code>245</code>
-		<country>The Republic of Guinea-Bissau</country>
+		<area>Republic of Guinea-Bissau</area>
 		<abbreviation>GW</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>57</index>
 		<code>246</code>
-		<country>Diego Garcia</country>
+		<area>Diego Garcia</area>
 		<abbreviation>DG</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>58</index>
 		<code>247</code>
-		<country>Ascension Island</country>
+		<area>Ascension Island</area>
 		<abbreviation>AC</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>59</index>
 		<code>248</code>
-		<country>Republic of Seychelles</country>
+		<area>Republic of Seychelles</area>
 		<abbreviation>SC</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>60</index>
 		<code>249</code>
-		<country>The Republic of Sudan</country>
+		<area>Republic of Sudan</area>
 		<abbreviation>SD</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>61</index>
 		<code>250</code>
-		<country>The Republic of Rwanda</country>
+		<area>Republic of Rwanda</area>
 		<abbreviation>RW</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>62</index>
 		<code>251</code>
-		<country>The Federal Democratic Republic of Ethiopia</country>
+		<area>The Federal Democratic Republic of Ethiopia</area>
 		<abbreviation>ET</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>63</index>
 		<code>252</code>
-		<country>The Somalia Democratic Republic</country>
+		<area>The Somalia Democratic Republic</area>
 		<abbreviation>SO</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>64</index>
 		<code>253</code>
-		<country>The Republic of Djibouti</country>
+		<area>Republic of Djibouti</area>
 		<abbreviation>DJ</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>65</index>
 		<code>254</code>
-		<country>The Republic of Kenya</country>
+		<area>Republic of Kenya</area>
 		<abbreviation>KE</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>66</index>
 		<code>255</code>
-		<country>The United Republic of Tanzania</country>
+		<area>The United Republic of Tanzania</area>
 		<abbreviation>TZ</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>67</index>
 		<code>256</code>
-		<country>The Republic of Uganda</country>
+		<area>Republic of Uganda</area>
 		<abbreviation>UG</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>68</index>
 		<code>257</code>
-		<country>The Republic of Burundi</country>
+		<area>Republic of Burundi</area>
 		<abbreviation>BI</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>69</index>
 		<code>258</code>
-		<country>The Republic of Mozambique</country>
+		<area>Republic of Mozambique</area>
 		<abbreviation>MZ</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>70</index>
 		<code>259</code>
-		<country>Zanzibar</country>
+		<area>Zanzibar</area>
 		<abbreviation>ZB</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>71</index>
 		<code>260</code>
-		<country>The Republic of Zambia</country>
+		<area>Republic of Zambia</area>
 		<abbreviation>ZM</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>72</index>
 		<code>261</code>
-		<country>Madagascar</country>
+		<area>Madagascar</area>
 		<abbreviation>MG</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>73</index>
 		<code>262</code>
-		<country>Reunion</country>
+		<area>Reunion</area>
 		<abbreviation>RE</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>74</index>
 		<code>263</code>
-		<country>Republic of Zimbabwe</country>
+		<area>Republic of Zimbabwe</area>
 		<abbreviation>ZW</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>75</index>
 		<code>264</code>
-		<country>The Republic of Namibia</country>
+		<area>Republic of Namibia</area>
 		<abbreviation>NA</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>76</index>
 		<code>265</code>
-		<country>The Republic of Malawi</country>
+		<area>Republic of Malawi</area>
 		<abbreviation>MW</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>77</index>
 		<code>266</code>
-		<country>The Kingdom of Lesotho</country>
+		<area>The Kingdom of Lesotho</area>
 		<abbreviation>LS</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>78</index>
 		<code>267</code>
-		<country>The Republic of Botswana</country>
+		<area>Republic of Botswana</area>
 		<abbreviation>BW</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>79</index>
 		<code>268</code>
-		<country>The Kingdom of Swaziland</country>
+		<area>The Kingdom of Swaziland</area>
 		<abbreviation>SZ</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>80</index>
 		<code>269</code>
-		<country>Union of Comoros</country>
+		<area>Union of Comoros</area>
 		<abbreviation>KM</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>81</index>
 		<code>269</code>
-		<country>Departmental Collectivity of Mayotte</country>
+		<area>Departmental Collectivity of Mayotte</area>
 		<abbreviation>YT</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>82</index>
 		<code>27</code>
-		<country>The Republic of South Africa</country>
+		<area>Republic of South Africa</area>
 		<abbreviation>ZA</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>83</index>
 		<code>290</code>
-		<country>Saint Helena</country>
+		<area>Saint Helena</area>
 		<abbreviation>SH</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>84</index>
 		<code>291</code>
-		<country>The Commonwealth of eritrea</country>
+		<area>The Commonwealth of eritrea</area>
 		<abbreviation>ER</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>85</index>
 		<code>297</code>
-		<country>Aruba</country>
+		<area>Aruba</area>
 		<abbreviation>AW</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>86</index>
 		<code>298</code>
-		<country>The Faroe Islands</country>
+		<area>Faroe Islands</area>
 		<abbreviation>FO</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>87</index>
 		<code>299</code>
-		<country>Greenland</country>
+		<area>Greenland</area>
 		<abbreviation>GL</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>88</index>
 		<code>30</code>
-		<country>The Hellenic Republic</country>
+		<area>The Hellenic Republic</area>
 		<abbreviation>GR</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>89</index>
 		<code>31</code>
-		<country>The Kingdom of Netherlands</country>
+		<area>The Kingdom of Netherlands</area>
 		<abbreviation>NL</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>90</index>
 		<code>32</code>
-		<country>The Kingdom of Belgium</country>
+		<area>The Kingdom of Belgium</area>
 		<abbreviation>BE</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>91</index>
 		<code>33</code>
-		<country>The Republic of France</country>
+		<area>Republic of France</area>
 		<abbreviation>FR</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>92</index>
 		<code>34</code>
-		<country>The Kingdom of Spain</country>
+		<area>The Kingdom of Spain</area>
 		<abbreviation>ES</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>93</index>
 		<code>350</code>
-		<country>Gibraltar</country>
+		<area>Gibraltar</area>
 		<abbreviation>GI</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>94</index>
 		<code>351</code>
-		<country>Portugal, the Portuguese Republic</country>
+		<area>Portugal, the Portuguese Republic</area>
 		<abbreviation>PT</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>95</index>
 		<code>352</code>
-		<country>The Grand Duchy of Luxembourg</country>
+		<area>The Grand Duchy of Luxembourg</area>
 		<abbreviation>LU</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>96</index>
 		<code>353</code>
-		<country>The Republic of Ireland</country>
+		<area>Republic of Ireland</area>
 		<abbreviation>IE</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>97</index>
 		<code>354</code>
-		<country>The Republic of Iceland</country>
+		<area>Republic of Iceland</area>
 		<abbreviation>IS</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>98</index>
 		<code>355</code>
-		<country>The Republic of Albania</country>
+		<area>Republic of Albania</area>
 		<abbreviation>AL</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>99</index>
 		<code>356</code>
-		<country>The Republic of Malta</country>
+		<area>Republic of Malta</area>
 		<abbreviation>MT</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>100</index>
 		<code>357</code>
-		<country>The Republic of Cyprus</country>
+		<area>Republic of Cyprus</area>
 		<abbreviation>CY</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>101</index>
 		<code>358</code>
-		<country>The Republic of Finland</country>
+		<area>Republic of Finland</area>
 		<abbreviation>FI</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>102</index>
 		<code>359</code>
-		<country>The Republic of Bulgaria</country>
+		<area>Republic of Bulgaria</area>
 		<abbreviation>BG</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>103</index>
 		<code>36</code>
-		<country>Hungary</country>
+		<area>Hungary</area>
 		<abbreviation>HU</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>104</index>
 		<code>370</code>
-		<country>The Republic of Lithuania</country>
+		<area>Republic of Lithuania</area>
 		<abbreviation>LT</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>105</index>
 		<code>371</code>
-		<country>he Republic of Latvia</country>
+		<area>Republic of Latvia</area>
 		<abbreviation>LV</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>106</index>
 		<code>372</code>
-		<country>The Republic of Estonia</country>
+		<area>Republic of Estonia</area>
 		<abbreviation>EE</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>107</index>
 		<code>373</code>
-		<country>The Republic of Moldova</country>
+		<area>Republic of Moldova</area>
 		<abbreviation>MD</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>108</index>
 		<code>374</code>
-		<country>The Republic of Armenia</country>
+		<area>Republic of Armenia</area>
 		<abbreviation>AM</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>109</index>
 		<code>375</code>
-		<country>The Republic of Belarus</country>
+		<area>Republic of Belarus</area>
 		<abbreviation>BY</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>110</index>
 		<code>376</code>
-		<country>The Principality of Andorra</country>
+		<area>The Principality of Andorra</area>
 		<abbreviation>AD</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>111</index>
 		<code>377</code>
-		<country>The Principality of Monaco</country>
+		<area>The Principality of Monaco</area>
 		<abbreviation>MC</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>112</index>
 		<code>378</code>
-		<country>The Republic of San Marino</country>
+		<area>Republic of San Marino</area>
 		<abbreviation>SM</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>113</index>
 		<code>379</code>
-		<country>Vatican City State</country>
+		<area>Vatican City State</area>
 		<abbreviation>VA</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>114</index>
 		<code>380</code>
-		<country>Ukraine</country>
+		<area>Ukraine</area>
 		<abbreviation>UA</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>115</index>
 		<code>381</code>
-		<country>The Republic of Serbia</country>
+		<area>Republic of Serbia</area>
 		<abbreviation>RS</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>116</index>
 		<code>382</code>
-		<country>The Republic of Montenegro</country>
+		<area>Republic of Montenegro</area>
 		<abbreviation>ME</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>117</index>
 		<code>385</code>
-		<country>The Republic of Croatia</country>
+		<area>Republic of Croatia</area>
 		<abbreviation>HR</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>118</index>
 		<code>386</code>
-		<country>The Republic of Slovenia</country>
+		<area>Republic of Slovenia</area>
 		<abbreviation>SI</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>119</index>
 		<code>387</code>
-		<country>Bosnia and Herzegovina</country>
+		<area>Bosnia and Herzegovina</area>
 		<abbreviation>BA</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>120</index>
 		<code>388</code>
-		<country>Routeing of calls to European Telephony Numbering Space (ETNS) services</country>
-		<abbreviation>EN</abbreviation>
-	</country>
-	<country>
+		<area>Routeing of calls to European Telephony Numbering Space (ETNS) services</area>
+		<abbreviation>ETNS</abbreviation>
+	</internationalCode>
+	<internationalCode>
 		<index>121</index>
 		<code>389</code>
-		<country>The Republic of Macedonia</country>
+		<area>Republic of Macedonia</area>
 		<abbreviation>MK</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>122</index>
 		<code>39</code>
-		<country>The Republic of Italy</country>
+		<area>Republic of Italy</area>
 		<abbreviation>IT</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>123</index>
 		<code>40</code>
-		<country>Romania</country>
+		<area>Romania</area>
 		<abbreviation>RO</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>124</index>
 		<code>41</code>
-		<country>Swiss Confederation</country>
+		<area>Swiss Confederation</area>
 		<abbreviation>CH</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>125</index>
 		<code>420</code>
-		<country>The Czech Republic</country>
+		<area>The Czech Republic</area>
 		<abbreviation>CZ</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>126</index>
 		<code>421</code>
-		<country>The Slovak Republic</country>
+		<area>The Slovak Republic</area>
 		<abbreviation>SK</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>127</index>
 		<code>423</code>
-		<country>Principality of Liechtenstein</country>
+		<area>Principality of Liechtenstein</area>
 		<abbreviation>LI</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>128</index>
 		<code>43</code>
-		<country>The Republic of Austria</country>
+		<area>Republic of Austria</area>
 		<abbreviation>AT</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>129</index>
 		<code>44</code>
-		<country>The United Kingdom of Great Britain and Northern Ireland</country>
+		<area>The United Kingdom of Great Britain and Northern Ireland</area>
 		<abbreviation>UK</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>130</index>
 		<code>45</code>
-		<country>The Kingdom of Denmark</country>
+		<area>The Kingdom of Denmark</area>
 		<abbreviation>DK</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>131</index>
 		<code>46</code>
-		<country>The Kingdom of Sweden</country>
+		<area>The Kingdom of Sweden</area>
 		<abbreviation>SE</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>132</index>
 		<code>47</code>
-		<country>The Kingdom of Norway, Kongeriket Norge</country>
+		<area>The Kingdom of Norway, Kongeriket Norge</area>
 		<abbreviation>NO</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>133</index>
 		<code>48</code>
-		<country>The Republic of Poland</country>
+		<area>Republic of Poland</area>
 		<abbreviation>PL</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>134</index>
 		<code>49</code>
-		<country>The Federal Republic of Germany</country>
+		<area>The Federal Republic of Germany</area>
 		<abbreviation>DE</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>135</index>
 		<code>500</code>
-		<country>Falkland Islands</country>
+		<area>Falkland Islands</area>
 		<abbreviation>FK</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>136</index>
 		<code>501</code>
-		<country>Belize</country>
+		<area>Belize</area>
 		<abbreviation>BZ</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>137</index>
 		<code>502</code>
-		<country>The Republic of Guatemala</country>
+		<area>Republic of Guatemala</area>
 		<abbreviation>GT</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>138</index>
 		<code>503</code>
-		<country>The Republic of El Salvador</country>
+		<area>Republic of El Salvador</area>
 		<abbreviation>SV</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>139</index>
 		<code>504</code>
-		<country>Republic of Honduras</country>
+		<area>Republic of Honduras</area>
 		<abbreviation>HN</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>140</index>
 		<code>505</code>
-		<country>The Republic of Nicaragua</country>
+		<area>Republic of Nicaragua</area>
 		<abbreviation>NI</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>141</index>
 		<code>506</code>
-		<country>Republic of Costa Rica</country>
+		<area>Republic of Costa Rica</area>
 		<abbreviation>CR</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>142</index>
 		<code>507</code>
-		<country>The Republic of Panama</country>
+		<area>Republic of Panama</area>
 		<abbreviation>PA</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>143</index>
 		<code>508</code>
-		<country>The Islands of Saint Pierre and Miquelon</country>
+		<area>The Islands of Saint Pierre and Miquelon</area>
 		<abbreviation>PM</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>144</index>
 		<code>509</code>
-		<country>The Republic of Haiti</country>
+		<area>Republic of Haiti</area>
 		<abbreviation>HT</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>145</index>
 		<code>51</code>
-		<country>The Republic of Peru</country>
+		<area>Republic of Peru</area>
 		<abbreviation>PE</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>146</index>
 		<code>52</code>
-		<country>The United Mexican States</country>
+		<area>The United Mexican States</area>
 		<abbreviation>MX</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>147</index>
 		<code>53</code>
-		<country>The Republic of Cuba</country>
+		<area>Republic of Cuba</area>
 		<abbreviation>CU</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>148</index>
 		<code>54</code>
-		<country>The Republic of Argentina</country>
+		<area>Republic of Argentina</area>
 		<abbreviation>AR</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>149</index>
 		<code>55</code>
-		<country>The Federative Republic of Brazil</country>
+		<area>The Federative Republic of Brazil</area>
 		<abbreviation>BR</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>150</index>
 		<code>56</code>
-		<country>Republic of Chile</country>
+		<area>Republic of Chile</area>
 		<abbreviation>CL</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>151</index>
 		<code>57</code>
-		<country>The Republic of Colombia</country>
+		<area>Republic of Colombia</area>
 		<abbreviation>CO</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>152</index>
 		<code>58</code>
-		<country>Bolivarian Republic of Venezuela</country>
+		<area>Bolivarian Republic of Venezuela</area>
 		<abbreviation>VE</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>153</index>
 		<code>590</code>
-		<country>Guadeloupe</country>
+		<area>Guadeloupe</area>
 		<abbreviation>GP</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>154</index>
 		<code>591</code>
-		<country>Republic of Bolivia</country>
+		<area>Republic of Bolivia</area>
 		<abbreviation>BO</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>155</index>
 		<code>592</code>
-		<country>The Cooperative Republic of Guyana</country>
+		<area>The Cooperative Republic of Guyana</area>
 		<abbreviation>GY</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>156</index>
 		<code>593</code>
-		<country>The Republic of Ecuador</country>
+		<area>Republic of Ecuador</area>
 		<abbreviation>EC</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>157</index>
 		<code>594</code>
-		<country>Guyane Francaise</country>
+		<area>Guyane Francaise</area>
 		<abbreviation>GF</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>158</index>
 		<code>595</code>
-		<country>The Republic of Paraguay</country>
+		<area>Republic of Paraguay</area>
 		<abbreviation>PY</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>159</index>
 		<code>596</code>
-		<country>Martinique</country>
+		<area>Martinique</area>
 		<abbreviation>MQ</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>160</index>
 		<code>597</code>
-		<country>The Republic of Suriname</country>
+		<area>Republic of Suriname</area>
 		<abbreviation>SR</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>161</index>
 		<code>598</code>
-		<country>The Oriental Republic of Uruguay</country>
+		<area>The Oriental Republic of Uruguay</area>
 		<abbreviation>UY</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>162</index>
 		<code>599</code>
-		<country>Netherlands Antilles</country>
-		<abbreviation>NN</abbreviation>
-	</country>
-	<country>
+		<area>Netherlands Antilles</area>
+		<abbreviation>AN</abbreviation>
+	</internationalCode>
+	<internationalCode>
 		<index>163</index>
 		<code>60</code>
-		<country>Malaysia</country>
+		<area>Malaysia</area>
 		<abbreviation>MY</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>164</index>
 		<code>61</code>
-		<country>The Commonwealth of Australia</country>
+		<area>The Commonwealth of Australia</area>
 		<abbreviation>AU</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>165</index>
 		<code>62</code>
-		<country>The Republic of Indonesia</country>
+		<area>Republic of Indonesia</area>
 		<abbreviation>ID</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>166</index>
 		<code>63</code>
-		<country>Republic of the Philippines</country>
+		<area>Republic of the Philippines</area>
 		<abbreviation>PH</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>167</index>
 		<code>64</code>
-		<country>New Zealand</country>
+		<area>New Zealand</area>
 		<abbreviation>NZ</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>168</index>
 		<code>65</code>
-		<country>Republic of Singapore</country>
+		<area>Republic of Singapore</area>
 		<abbreviation>SG</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>169</index>
 		<code>66</code>
-		<country>Kingdom of Thailand</country>
+		<area>Kingdom of Thailand</area>
 		<abbreviation>TH</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>170</index>
 		<code>670</code>
-		<country>Democratic Republic of Timor-Leste</country>
+		<area>Democratic Republic of Timor-Leste</area>
 		<abbreviation>TL</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>171</index>
 		<code>672</code>
-		<country>Antarctica</country>
-		<abbreviation>AN</abbreviation>
-	</country>
-	<country>
+		<area>Antarctica</area>
+		<abbreviation>AA</abbreviation>
+	</internationalCode>
+	<internationalCode>
 		<index>172</index>
 		<code>672</code>
-		<country>Christmas Island</country>
-		<abbreviation>CS</abbreviation>
-	</country>
-	<country>
+		<area>The Territory of Christmas Island</area>
+		<abbreviation>TCI</abbreviation>
+	</internationalCode>
+	<internationalCode>
 		<index>173</index>
 		<code>672</code>
-		<country>Cocos(Keeling) Islands</country>
-		<abbreviation>KI</abbreviation>
-	</country>
-	<country>
+		<area>Cocos(Keeling) Islands</area>
+		<abbreviation>CKI</abbreviation>
+	</internationalCode>
+	<internationalCode>
 		<index>174</index>
 		<code>672</code>
-		<country>Territory of Norfolk Island</country>
-		<abbreviation>TI</abbreviation>
-	</country>
-	<country>
+		<area>Territory of Norfolk Island</area>
+		<abbreviation>TNI</abbreviation>
+	</internationalCode>
+	<internationalCode>
 		<index>175</index>
 		<code>673</code>
-		<country>Brunei</country>
+		<area>Brunei</area>
 		<abbreviation>BN</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>176</index>
 		<code>674</code>
-		<country>The Republic of Nauru</country>
+		<area>Republic of Nauru</area>
 		<abbreviation>NR</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>177</index>
 		<code>675</code>
-		<country>The Independent State of Papua New Guinea</country>
+		<area>The Independent State of Papua New Guinea</area>
 		<abbreviation>PG</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>178</index>
 		<code>676</code>
-		<country>The Kingdom of Tonga</country>
+		<area>The Kingdom of Tonga</area>
 		<abbreviation>TO</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>179</index>
 		<code>677</code>
-		<country>Solomon Islands</country>
+		<area>Solomon Islands</area>
 		<abbreviation>SB</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>180</index>
 		<code>678</code>
-		<country>Republic of Vanuatu</country>
+		<area>Republic of Vanuatu</area>
 		<abbreviation>VU</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>181</index>
 		<code>679</code>
-		<country>The Republic of The FiJi Islands</country>
+		<area>Republic of The FiJi Islands</area>
 		<abbreviation>FJ</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>182</index>
 		<code>680</code>
-		<country>The Republic of Palau</country>
+		<area>Republic of Palau</area>
 		<abbreviation>PW</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>183</index>
 		<code>681</code>
-		<country>Wallis and Futuna Islands</country>
+		<area>Wallis and Futuna Islands</area>
 		<abbreviation>WF</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>184</index>
 		<code>682</code>
-		<country>The Cook Islands</country>
+		<area>Cook Islands</area>
 		<abbreviation>CK</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>185</index>
 		<code>683</code>
-		<country>Niue</country>
+		<area>Niue</area>
 		<abbreviation>NU</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>186</index>
 		<code>684</code>
-		<country>American Samoa</country>
+		<area>American Samoa</area>
 		<abbreviation>AS</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>187</index>
 		<code>685</code>
-		<country>The Independent State of Samoa</country>
+		<area>The Independent State of Samoa</area>
 		<abbreviation>WS</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>188</index>
 		<code>686</code>
-		<country>The Republic of Kiribati</country>
+		<area>Republic of Kiribati</area>
 		<abbreviation>KI</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>189</index>
 		<code>686</code>
-		<country>Gilbert Islands</country>
-		<abbreviation>GS</abbreviation>
-	</country>
-	<country>
+		<area>Gilbert Islands</area>
+		<abbreviation>GII</abbreviation>
+	</internationalCode>
+	<internationalCode>
 		<index>190</index>
 		<code>687</code>
-		<country>New Caledonia</country>
+		<area>New Caledonia</area>
 		<abbreviation>NC</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>191</index>
 		<code>688</code>
-		<country>Tuvalu</country>
+		<area>Tuvalu</area>
 		<abbreviation>TV</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>192</index>
 		<code>689</code>
-		<country>French Polynesia</country>
+		<area>French Polynesia</area>
 		<abbreviation>PF</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>193</index>
 		<code>690</code>
-		<country>Tokelau Islands</country>
+		<area>Tokelau</area>
 		<abbreviation>TK</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>194</index>
 		<code>691</code>
-		<country>Federated States of Micronesia</country>
+		<area>Federated States of Micronesia</area>
 		<abbreviation>FM</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>195</index>
 		<code>692</code>
-		<country>Marshall Islands</country>
+		<area>Republic of Marshall Island</area>
 		<abbreviation>MH</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>196</index>
 		<code>7</code>
-		<country>he Russian Federation</country>
+		<area>The Russian Federation</area>
 		<abbreviation>RU</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>197</index>
 		<code>7</code>
-		<country>The Republic of Kazakhstan</country>
+		<area>Republic of Kazakhstan</area>
 		<abbreviation>KZ</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>198</index>
 		<code>800</code>
-		<country>International Free Calls</country>
-		<abbreviation>IC</abbreviation>
-	</country>
-	<country>
+		<area>International Free Calls</area>
+		<abbreviation>IFC</abbreviation>
+	</internationalCode>
+	<internationalCode>
 		<index>199</index>
 		<code>808</code>
-		<country>International Shared Cost Service</country>
-		<abbreviation>SC</abbreviation>
-	</country>
-	<country>
+		<area>International Shared Cost Service</area>
+		<abbreviation>ISCS</abbreviation>
+	</internationalCode>
+	<internationalCode>
 		<index>200</index>
 		<code>81</code>
-		<country>Japan</country>
+		<area>Japan</area>
 		<abbreviation>JP</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>201</index>
 		<code>82</code>
-		<country>Republic of Korea</country>
+		<area>Republic of Korea</area>
 		<abbreviation>KR</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>202</index>
 		<code>84</code>
-		<country>Socialist Republic of Vietnam</country>
+		<area>Socialist Republic of Vietnam</area>
 		<abbreviation>VN</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>203</index>
 		<code>850</code>
-		<country>Democratic People's Republic of Korea</country>
+		<area>Democratic People's Republic of Korea</area>
 		<abbreviation>KP</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>204</index>
 		<code>851</code>
-		<country>Test</country>
-		<abbreviation>TE</abbreviation>
-	</country>
-	<country>
+		<area>Test</area>
+		<abbreviation>TEST</abbreviation>
+	</internationalCode>
+	<internationalCode>
 		<index>205</index>
 		<code>852</code>
-		<country>Hong Kong</country>
+		<area>Hong Kong</area>
 		<abbreviation>HK</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>206</index>
 		<code>853</code>
-		<country>Macau</country>
+		<area>Macau</area>
 		<abbreviation>MO</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>207</index>
 		<code>855</code>
-		<country>Kingdom of Cambodia</country>
+		<area>Kingdom of Cambodia</area>
 		<abbreviation>KH</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>208</index>
 		<code>856</code>
-		<country>Lao People's Democratic Republic</country>
+		<area>Lao People's Democratic Republic</area>
 		<abbreviation>LA</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>209</index>
 		<code>86</code>
-		<country>The People's Republic of China</country>
+		<area>People's Republic of China</area>
 		<abbreviation>CN</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>210</index>
 		<code>870</code>
-		<country>SNAC</country>
-		<abbreviation>SN</abbreviation>
-	</country>
-	<country>
+		<area>International Maritime Satellite Telephone Service</area>
+		<abbreviation>SNAC</abbreviation>
+	</internationalCode>
+	<internationalCode>
 		<index>211</index>
 		<code>871</code>
-		<country>Inmarsat East Atlantic Ocean</country>
-		<abbreviation>EA</abbreviation>
-	</country>
-	<country>
+		<area>Inmarsat East Atlantic Ocean</area>
+		<abbreviation>IEAO</abbreviation>
+	</internationalCode>
+	<internationalCode>
 		<index>212</index>
 		<code>872</code>
-		<country>Inmarsat Pacific Ocean</country>
-		<abbreviation>PO</abbreviation>
-	</country>
-	<country>
+		<area>Inmarsat Pacific Ocean</area>
+		<abbreviation>IPO</abbreviation>
+	</internationalCode>
+	<internationalCode>
 		<index>213</index>
 		<code>873</code>
-		<country>Inmarsat Indian Ocean</country>
-		<abbreviation>IO</abbreviation>
-	</country>
-	<country>
+		<area>Inmarsat Indian Ocean</area>
+		<abbreviation>IIO</abbreviation>
+	</internationalCode>
+	<internationalCode>
 		<index>214</index>
 		<code>874</code>
-		<country>Inmarsat West Atlantic Ocean</country>
-		<abbreviation>WA</abbreviation>
-	</country>
-	<country>
+		<area>Inmarsat West Atlantic Ocean</area>
+		<abbreviation>IWAO</abbreviation>
+	</internationalCode>
+	<internationalCode>
 		<index>215</index>
 		<code>878</code>
-		<country>Routeing of Personal Communication Service</country>
-		<abbreviation>PS</abbreviation>
-	</country>
-	<country>
+		<area>Routeing of Personal Communication Service</area>
+		<abbreviation>PCS</abbreviation>
+	</internationalCode>
+	<internationalCode>
 		<index>216</index>
 		<code>880</code>
-		<country>People's Republic of Bangladesh</country>
+		<area>People's Republic of Bangladesh</area>
 		<abbreviation>BD</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>217</index>
 		<code>881</code>
-		<country>Mobile Satellite Communication System</country>
-		<abbreviation>SC</abbreviation>
-	</country>
-	<country>
+		<area>Mobile Satellite Communication System</area>
+		<abbreviation>MSCS</abbreviation>
+	</internationalCode>
+	<internationalCode>
 		<index>218</index>
 		<code>882</code>
-		<country>International Network</country>
-		<abbreviation>NT</abbreviation>
-	</country>
-	<country>
+		<area>International Network</area>
+		<abbreviation>INTNET</abbreviation>
+	</internationalCode>
+	<internationalCode>
 		<index>219</index>
 		<code>886</code>
-		<country>Taiwan</country>
+		<area>Taiwan</area>
 		<abbreviation>TW</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>220</index>
 		<code>90</code>
-		<country>The Republic of Turkey</country>
+		<area>Republic of Turkey</area>
 		<abbreviation>TR</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>221</index>
 		<code>91</code>
-		<country>Republic of India</country>
+		<area>Republic of India</area>
 		<abbreviation>IN</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>222</index>
 		<code>92</code>
-		<country>Islamic Republic of Pakistan</country>
+		<area>Islamic Republic of Pakistan</area>
 		<abbreviation>PK</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>223</index>
 		<code>93</code>
-		<country>The Islamic Republic of Afghanistan</country>
+		<area>The Islamic Republic of Afghanistan</area>
 		<abbreviation>AF</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>224</index>
 		<code>94</code>
-		<country>The Democratic Socialist Republic of Sri Lanka</country>
+		<area>The Democratic Socialist Republic of Sri Lanka</area>
 		<abbreviation>LK</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>225</index>
 		<code>95</code>
-		<country>Republic of the Union of Myanmar</country>
+		<area>Republic of the Union of Myanmar</area>
 		<abbreviation>MM</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>226</index>
 		<code>960</code>
-		<country>The Republic of Maldives</country>
+		<area>Republic of Maldives</area>
 		<abbreviation>MV</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>227</index>
 		<code>961</code>
-		<country>The Republic of Lebanon</country>
+		<area>Republic of Lebanon</area>
 		<abbreviation>LB</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>228</index>
 		<code>962</code>
-		<country>The Hashemite Kingdom of Jordan</country>
+		<area>The Hashemite Kingdom of Jordan</area>
 		<abbreviation>JO</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>229</index>
 		<code>963</code>
-		<country>The Syrian Arab Republic</country>
+		<area>The Syrian Arab Republic</area>
 		<abbreviation>SY</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>230</index>
 		<code>964</code>
-		<country>Republic of Iraq</country>
+		<area>Republic of Iraq</area>
 		<abbreviation>IQ</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>231</index>
 		<code>965</code>
-		<country>The State of Kuwait</country>
+		<area>The State of Kuwait</area>
 		<abbreviation>KW</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>232</index>
 		<code>966</code>
-		<country>Kingdom of Saudi Arabia</country>
+		<area>Kingdom of Saudi Arabia</area>
 		<abbreviation>SA</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>233</index>
 		<code>967</code>
-		<country>The Republic of Yemen</country>
+		<area>Republic of Yemen</area>
 		<abbreviation>YE</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>234</index>
 		<code>968</code>
-		<country>Sultanate of Oman</country>
+		<area>Sultanate of Oman</area>
 		<abbreviation>OM</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>235</index>
 		<code>970</code>
-		<country>Palestine</country>
+		<area>Palestine</area>
 		<abbreviation>BL</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>236</index>
 		<code>971</code>
-		<country>The United Arab Emirates</country>
+		<area>The United Arab Emirates</area>
 		<abbreviation>AE</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>237</index>
 		<code>972</code>
-		<country>The State of Israel</country>
+		<area>The State of Israel</area>
 		<abbreviation>IL</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>238</index>
 		<code>973</code>
-		<country>The Kingdom of Bahrain</country>
+		<area>The Kingdom of Bahrain</area>
 		<abbreviation>BH</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>239</index>
 		<code>974</code>
-		<country>The State of Qatar</country>
+		<area>The State of Qatar</area>
 		<abbreviation>QA</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>240</index>
 		<code>975</code>
-		<country>Kingdom of Bhutan</country>
+		<area>Kingdom of Bhutan</area>
 		<abbreviation>BT</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>241</index>
 		<code>976</code>
-		<country>Mongolia</country>
+		<area>Mongolia</area>
 		<abbreviation>MN</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>242</index>
 		<code>977</code>
-		<country>Federal Democratic Republic of Nepal</country>
+		<area>Federal Democratic Republic of Nepal</area>
 		<abbreviation>NP</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>243</index>
 		<code>979</code>
-		<country>International Premium Rate Service</country>
-		<abbreviation>PR</abbreviation>
-	</country>
-	<country>
+		<area>International Premium Rate Service</area>
+		<abbreviation>IPRS</abbreviation>
+	</internationalCode>
+	<internationalCode>
 		<index>244</index>
 		<code>98</code>
-		<country>The Islamic Republic of Iran</country>
+		<area>The Islamic Republic of Iran</area>
 		<abbreviation>IR</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>245</index>
 		<code>991</code>
-		<country>International Telecommunications Public Correspondence Service trial</country>
-		<abbreviation>PC</abbreviation>
-	</country>
-	<country>
+		<area>International Telecommunications Public Correspondence Service trial</area>
+		<abbreviation>ITCS</abbreviation>
+	</internationalCode>
+	<internationalCode>
 		<index>246</index>
 		<code>992</code>
-		<country>The Republic of Tajikistan</country>
+		<area>Republic of Tajikistan</area>
 		<abbreviation>TJ</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>247</index>
 		<code>993</code>
-		<country>Turkmenistan</country>
+		<area>Turkmenistan</area>
 		<abbreviation>TM</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>248</index>
 		<code>994</code>
-		<country>The Republic of Azerbaijan</country>
+		<area>Republic of Azerbaijan</area>
 		<abbreviation>AZ</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>249</index>
 		<code>995</code>
-		<country>Georgia</country>
+		<area>Georgia</area>
 		<abbreviation>GE</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>250</index>
 		<code>996</code>
-		<country>The Kyrgyz Republic</country>
+		<area>The Kyrgyz Republic</area>
 		<abbreviation>KG</abbreviation>
-	</country>
-	<country>
+	</internationalCode>
+	<internationalCode>
 		<index>251</index>
 		<code>998</code>
-		<country>The Republic of Uzbekistan</country>
+		<area>Republic of Uzbekistan</area>
 		<abbreviation>UZ</abbreviation>
-	</country>
-</countries>
+	</internationalCode>
+	<internationalCode>
+		<index>252</index>
+		<code>999</code>
+		<area>Send Our Succour</area>
+		<abbreviation>SOS</abbreviation>
+	</internationalCode>
+</internationalCodes>

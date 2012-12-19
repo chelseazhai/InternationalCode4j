@@ -4,8 +4,10 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
+import com.richitec.internationalcode.AreaAbbreviation;
 import com.richitec.internationalcode.InternationalCodeBean;
 import com.richitec.internationalcode.InternationalCodeManager;
 import com.richitec.internationalcode.utils.InternationalCodeHelper;
@@ -51,11 +53,28 @@ public class InternationalCodeDemo {
 							+ string);
 		}
 
+		// get international prefix
 		String _exceptionInternationalPrefix = "";
 		System.out.println("Get international prefix = "
 				+ InternationalCodeHelper
 						.getInternationalPrefix(_exceptionInternationalPrefix)
 				+ " except for = " + _exceptionInternationalPrefix);
+
+		// get international code by abbreviation
+		AreaAbbreviation _abbreviation = AreaAbbreviation.JP;
+		List<AreaAbbreviation> _abbreviations = new ArrayList<AreaAbbreviation>();
+		_abbreviations.add(AreaAbbreviation.CN);
+		_abbreviations.add(AreaAbbreviation.AO);
+		System.out.println("Get international code with = "
+				+ _abbreviation
+				+ " is "
+				+ InternationalCodeHelper
+						.getInternationalCodeByAbbreviation(_abbreviation));
+		System.out.println("Get international codes with = "
+				+ _abbreviations
+				+ " are "
+				+ InternationalCodeHelper
+						.getInternationalCodeByAbbreviation(_abbreviations));
 
 		// convert sqlite database to xml
 		// new international code xml file and file write
@@ -80,16 +99,16 @@ public class InternationalCodeDemo {
 			_internationalCodeXmlFileOutputStream
 					.write("<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
 							.getBytes());
-			_internationalCodeXmlFileOutputStream.write("<countries>\n"
-					.getBytes());
+			_internationalCodeXmlFileOutputStream
+					.write("<internationalCodes>\n".getBytes());
 
 			// add each country element
 			List<InternationalCodeBean> __allInternationalCodeArray = InternationalCodeManager
 					.getInstance().getAllInternationalCodeArray();
 			for (InternationalCodeBean internationalCodeBean : __allInternationalCodeArray) {
 				// add start country element
-				_internationalCodeXmlFileOutputStream.write("\t<country>\n"
-						.getBytes());
+				_internationalCodeXmlFileOutputStream
+						.write("\t<internationalCode>\n".getBytes());
 
 				// add country attributes
 				_internationalCodeXmlFileOutputStream.write("\t\t<index>"
@@ -108,12 +127,11 @@ public class InternationalCodeDemo {
 				_internationalCodeXmlFileOutputStream.write("</code>\n"
 						.getBytes());
 
-				_internationalCodeXmlFileOutputStream.write("\t\t<country>"
+				_internationalCodeXmlFileOutputStream.write("\t\t<area>"
 						.getBytes());
 				_internationalCodeXmlFileOutputStream
-						.write(internationalCodeBean.getCountryName()
-								.getBytes());
-				_internationalCodeXmlFileOutputStream.write("</country>\n"
+						.write(internationalCodeBean.getAreaName().getBytes());
+				_internationalCodeXmlFileOutputStream.write("</area>\n"
 						.getBytes());
 
 				_internationalCodeXmlFileOutputStream
@@ -125,12 +143,12 @@ public class InternationalCodeDemo {
 						.getBytes());
 
 				// add end country element
-				_internationalCodeXmlFileOutputStream.write("\t</country>\n"
-						.getBytes());
+				_internationalCodeXmlFileOutputStream
+						.write("\t</internationalCode>\n".getBytes());
 			}
 
 			// add end root element
-			_internationalCodeXmlFileOutputStream.write("</countries>"
+			_internationalCodeXmlFileOutputStream.write("</internationalCodes>"
 					.getBytes());
 
 			// close international code xml file outputStream

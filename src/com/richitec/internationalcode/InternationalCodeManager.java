@@ -11,7 +11,9 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -49,6 +51,10 @@ public class InternationalCodeManager {
 									: _compABSValue;
 				}
 			});
+
+	// area abbreviation and international code map, key is area
+	// abbreviation(String) and value is international code(Integer)
+	private final Map<String, Integer> _mAbbreviationInternationalCodeMap = new HashMap<String, Integer>();
 
 	// private constructor
 	private InternationalCodeManager() {
@@ -116,6 +122,26 @@ public class InternationalCodeManager {
 		return _allInternationalCode;
 	}
 
+	// get international code by abbreviation
+	public Integer getInternationalCodeByAbbreviation(
+			AreaAbbreviation abbreviation) {
+		return _mAbbreviationInternationalCodeMap.get(abbreviation.name());
+	}
+
+	// get international code list by some abbreviations
+	public List<Integer> getInternationalCodeByAbbreviation(
+			List<AreaAbbreviation> abbreviations) {
+		// define return result
+		List<Integer> _ret = new ArrayList<Integer>();
+
+		for (AreaAbbreviation areaAbbreviation : abbreviations) {
+			// get international code by abbreviation
+			_ret.add(getInternationalCodeByAbbreviation(areaAbbreviation));
+		}
+
+		return _ret;
+	}
+
 	// load and traversal international code database, important do it first
 	private void load7TraversalInternationalCodeDB() {
 		// international code database path and its table of saving
@@ -124,13 +150,17 @@ public class InternationalCodeManager {
 		final String TABLE_NAME = "internationalcode";
 		final String KEY_INDEX = "index";
 		final String KEY_CODE = "code";
-		final String KEY_COUNTRYNAME = "country";
+		final String KEY_AREANAME = "area";
 		final String KEY_ABBREVIATION = "abbreviation";
 
 		// international code xml file path and its json keys
 		final String XMLFILE_PATH = "/internationalcodedb/internationalcode.xml";
-		final String KEY_COUNTRIES = "countries";
-		final String KEY_COUNTRY = "country";
+		final String KEY_INTERNATIONALCODES = "internationalCodes";
+		final String KEY_INTERNATIONALCODE = "internationalCode";
+
+		// define international code id, code, area name and abbreviation
+		Integer _id, _code;
+		String _areaName, _abbreviation;
 
 		// define sqlite database connection
 		Connection _connection = null;
@@ -152,20 +182,23 @@ public class InternationalCodeManager {
 
 			// read the result set
 			while (_rs.next()) {
-				// get international code id, code, country name and
+				// get international code id, code, area name and
 				// abbreviation
-				Integer _id = _rs.getInt(KEY_INDEX);
-				Integer _code = _rs.getInt(KEY_CODE);
-				String _countryName = _rs.getString(KEY_COUNTRYNAME);
-				String _abbreviation = _rs.getString(KEY_ABBREVIATION);
+				_id = _rs.getInt(KEY_INDEX);
+				_code = _rs.getInt(KEY_CODE);
+				_areaName = _rs.getString(KEY_AREANAME);
+				_abbreviation = _rs.getString(KEY_ABBREVIATION);
 
-				// System.out
-				// .println("International code id = " + _id + ", code = "
-				// + _code + ", country name = " + _countryName
+				// System.out.println("International code id = " + _id
+				// + ", code = " + _code + ", area name = " + _areaName
 				// + " and abbreviation = " + _abbreviation);
 
 				// add code to all international code set
 				_mAllInternationalCodeSet.add(_code);
+
+				// add abbreviation and code to abbreviation international code
+				// map
+				_mAbbreviationInternationalCodeMap.put(_abbreviation, _code);
 
 				// generate international code bean and add to all international
 				// code array
@@ -174,7 +207,7 @@ public class InternationalCodeManager {
 				// set attributes
 				_internationalCode.setId(_id);
 				_internationalCode.setCode(_code);
-				_internationalCode.setCountryName(_countryName);
+				_internationalCode.setAreaName(_areaName);
 				_internationalCode.setAbbreviation(_abbreviation);
 
 				// add to list
@@ -197,37 +230,43 @@ public class InternationalCodeManager {
 					+ ", loading international code xml file");
 			// load international code xml file
 			try {
-				// get international code json object
-				JSONObject _internationalCodeJsonObject = XML
+				// get international codes json object
+				JSONObject _internationalCodesJsonObject = XML
 						.toJSONObject(inputStream2String(this.getClass()
 								.getResourceAsStream(XMLFILE_PATH)));
 
-				// get all countries json array
-				JSONArray _countriesJsonArray = (JSONArray) ((JSONObject) _internationalCodeJsonObject
-						.get(KEY_COUNTRIES)).get(KEY_COUNTRY);
+				// get all international codes json array
+				JSONArray _internationalCodesJsonArray = (JSONArray) ((JSONObject) _internationalCodesJsonObject
+						.get(KEY_INTERNATIONALCODES))
+						.get(KEY_INTERNATIONALCODE);
 
-				// traversal countries json array
-				for (int i = 0; i < _countriesJsonArray.length(); i++) {
-					// get country json object
-					JSONObject _countryJsonObject = _countriesJsonArray
+				// traversal all international codes json array
+				for (int i = 0; i < _internationalCodesJsonArray.length(); i++) {
+					// get international code json object
+					JSONObject _internationalCodeJsonObject = _internationalCodesJsonArray
 							.getJSONObject(i);
 
-					// get international code id, code, country name and
+					// get international code id, code, area name and
 					// abbreviation
-					Integer _id = _countryJsonObject.getInt(KEY_INDEX);
-					Integer _code = _countryJsonObject.getInt(KEY_CODE);
-					String _countryName = _countryJsonObject
-							.getString(KEY_COUNTRYNAME);
-					String _abbreviation = _countryJsonObject
+					_id = _internationalCodeJsonObject.getInt(KEY_INDEX);
+					_code = _internationalCodeJsonObject.getInt(KEY_CODE);
+					_areaName = _internationalCodeJsonObject
+							.getString(KEY_AREANAME);
+					_abbreviation = _internationalCodeJsonObject
 							.getString(KEY_ABBREVIATION);
 
 					// System.out.println("International code id = " + _id
-					// + ", code = " + _code + ", country name = "
-					// + _countryName + " and abbreviation = "
+					// + ", code = " + _code + ", area name = "
+					// + _areaName + " and abbreviation = "
 					// + _abbreviation);
 
 					// add code to all international code set
 					_mAllInternationalCodeSet.add(_code);
+
+					// add abbreviation and code to abbreviation international
+					// code map
+					_mAbbreviationInternationalCodeMap
+							.put(_abbreviation, _code);
 
 					// generate international code bean and add to all
 					// international
@@ -237,7 +276,7 @@ public class InternationalCodeManager {
 					// set attributes
 					_internationalCode.setId(_id);
 					_internationalCode.setCode(_code);
-					_internationalCode.setCountryName(_countryName);
+					_internationalCode.setAreaName(_areaName);
 					_internationalCode.setAbbreviation(_abbreviation);
 
 					// add to list

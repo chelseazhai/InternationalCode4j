@@ -13,8 +13,8 @@ public class InternationalCodeBean implements Serializable {
 	private Integer id;
 	// code
 	private Integer code;
-	// country name
-	private String countryName;
+	// area name
+	private String areaName;
 	// abbreviation
 	private String abbreviation;
 
@@ -34,12 +34,12 @@ public class InternationalCodeBean implements Serializable {
 		this.code = code;
 	}
 
-	public String getCountryName() {
-		return countryName;
+	public String getAreaName() {
+		return areaName;
 	}
 
-	public void setCountryName(String countryName) {
-		this.countryName = countryName;
+	public void setAreaName(String areaName) {
+		this.areaName = areaName;
 	}
 
 	public String getAbbreviation() {
@@ -55,13 +55,13 @@ public class InternationalCodeBean implements Serializable {
 		// init international code description
 		StringBuilder _internationalCodeDescription = new StringBuilder();
 
-		// append id, code, country name and abbreviation
+		// append id, code, area name and abbreviation
 		_internationalCodeDescription.append("International code id: ")
 				.append(id).append(", ");
 		_internationalCodeDescription.append("code: ").append(code)
 				.append(", ");
-		_internationalCodeDescription.append("country name: ")
-				.append(countryName).append(", ");
+		_internationalCodeDescription.append("area name: ").append(areaName)
+				.append(", ");
 		_internationalCodeDescription.append("abbreviation: ")
 				.append(abbreviation).append("\n");
 
