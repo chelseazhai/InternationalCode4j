@@ -58,7 +58,7 @@ public class InternationalCodeHelper {
 	}
 
 	// get international code with international prefix by abbreviation
-	public static List<String> getInternationalCodesWithInternationalPrefix(
+	public static List<String> getInternationalCodeWithInternationalPrefixByAbbreviation(
 			AreaAbbreviation abbreviation) {
 		// define return result
 		List<String> _ret = new ArrayList<String>();
@@ -72,7 +72,7 @@ public class InternationalCodeHelper {
 		return _ret;
 	}
 
-	public static List<String> getInternationalCodesWithInternationalPrefix(
+	public static List<String> getInternationalCodeWithInternationalPrefixByAbbreviation(
 			List<AreaAbbreviation> abbreviations) {
 		// define return result
 		List<String> _ret = new ArrayList<String>();

@@ -65,16 +65,30 @@ public class InternationalCodeDemo {
 		List<AreaAbbreviation> _abbreviations = new ArrayList<AreaAbbreviation>();
 		_abbreviations.add(AreaAbbreviation.CN);
 		_abbreviations.add(AreaAbbreviation.AO);
-		System.out.println("Get international code with = "
+		System.out.println("Get international code of = "
 				+ _abbreviation
 				+ " is "
 				+ InternationalCodeHelper
 						.getInternationalCodeByAbbreviation(_abbreviation));
-		System.out.println("Get international codes with = "
+		System.out.println("Get international codes of = "
 				+ _abbreviations
 				+ " are "
 				+ InternationalCodeHelper
 						.getInternationalCodeByAbbreviation(_abbreviations));
+
+		// get international code with international prefix by abbreviation
+		System.out
+				.println("Get international code with internation prefix of = "
+						+ _abbreviation
+						+ " is "
+						+ InternationalCodeHelper
+								.getInternationalCodeWithInternationalPrefixByAbbreviation(_abbreviation));
+		System.out
+				.println("Get international codes with internation prefix of = "
+						+ _abbreviations
+						+ " are "
+						+ InternationalCodeHelper
+								.getInternationalCodeWithInternationalPrefixByAbbreviation(_abbreviations));
 
 		// convert sqlite database to xml
 		// new international code xml file and file write
