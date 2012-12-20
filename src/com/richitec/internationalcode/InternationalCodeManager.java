@@ -32,25 +32,28 @@ public class InternationalCodeManager {
 	// singleton instance
 	private static volatile InternationalCodeManager _singletonInstance;
 
+	// international code comparator
+	private final Comparator<Integer> INTERNATIONALCODE_COMPARATOR = new Comparator<Integer>() {
+
+		@Override
+		public int compare(Integer lhs, Integer rhs) {
+			// define result value of comparator with left hand side and
+			// right hand side
+			int _compValue = lhs.compareTo(rhs);
+			int _compABSValue = Math.abs(_compValue);
+
+			return 0 == _compValue ? _compValue
+					: _compValue == _compABSValue ? -_compABSValue
+							: _compABSValue;
+		}
+	};
+
 	// all international code object array
 	private final List<InternationalCodeBean> _mAllInternationalCodeArray = new ArrayList<InternationalCodeBean>();
 
 	// all international code set
 	private final Set<Integer> _mAllInternationalCodeSet = new TreeSet<Integer>(
-			new Comparator<Integer>() {
-
-				@Override
-				public int compare(Integer lhs, Integer rhs) {
-					// define result value of comparator with left hand side and
-					// right hand side
-					int _compValue = lhs.compareTo(rhs);
-					int _compABSValue = Math.abs(_compValue);
-
-					return 0 == _compValue ? _compValue
-							: _compValue == _compABSValue ? -_compABSValue
-									: _compABSValue;
-				}
-			});
+			INTERNATIONALCODE_COMPARATOR);
 
 	// area abbreviation and international code map, key is area
 	// abbreviation(String) and value is international code(Integer)
@@ -115,8 +118,8 @@ public class InternationalCodeManager {
 		}
 
 		// generate all international code
-		for (Object internationalCode : _mAllInternationalCodeSet.toArray()) {
-			_allInternationalCode.add((Integer) internationalCode);
+		for (Integer internationalCode : _mAllInternationalCodeSet) {
+			_allInternationalCode.add(internationalCode);
 		}
 
 		return _allInternationalCode;
@@ -138,10 +141,21 @@ public class InternationalCodeManager {
 		if (abbreviations.isEmpty()) {
 			_ret.addAll(getAllInternationalCode());
 		} else {
+			// define abbreviations international codes set
+			Set<Integer> _abbreviationsInternationalCodesSet = new TreeSet<Integer>(
+					INTERNATIONALCODE_COMPARATOR);
+
 			// add each allowed
 			for (AreaAbbreviation areaAbbreviation : abbreviations) {
-				// get international code by abbreviation
-				_ret.add(getInternationalCodeByAbbreviation(areaAbbreviation));
+				// get international code by abbreviation and add to
+				// abbreviations international codes set
+				_abbreviationsInternationalCodesSet
+						.add(getInternationalCodeByAbbreviation(areaAbbreviation));
+			}
+
+			// generate all international codes for given abbreviations
+			for (Integer abbreviationInternationalCode : _abbreviationsInternationalCodesSet) {
+				_ret.add(abbreviationInternationalCode);
 			}
 		}
 
