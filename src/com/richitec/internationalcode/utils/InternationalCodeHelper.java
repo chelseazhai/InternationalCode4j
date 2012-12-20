@@ -57,6 +57,37 @@ public class InternationalCodeHelper {
 		return _ret;
 	}
 
+	// get international code with international prefix by abbreviation
+	public static List<String> getInternationalCodesWithInternationalPrefix(
+			AreaAbbreviation abbreviation) {
+		// define return result
+		List<String> _ret = new ArrayList<String>();
+
+		// traversal all international prefix
+		for (String internationalPrefix : INTERNATIONAL_PREFIXES) {
+			_ret.add(internationalPrefix
+					+ getInternationalCodeByAbbreviation(abbreviation));
+		}
+
+		return _ret;
+	}
+
+	public static List<String> getInternationalCodesWithInternationalPrefix(
+			List<AreaAbbreviation> abbreviations) {
+		// define return result
+		List<String> _ret = new ArrayList<String>();
+
+		// traversal all international code matching with given abbreviations
+		for (Integer internationalCode : getInternationalCodeByAbbreviation(abbreviations)) {
+			// append international prefix
+			for (String internationalPrefix : INTERNATIONAL_PREFIXES) {
+				_ret.add(internationalPrefix + internationalCode);
+			}
+		}
+
+		return _ret;
+	}
+
 	// get international code by abbreviation
 	public static Integer getInternationalCodeByAbbreviation(
 			AreaAbbreviation abbreviation) {
